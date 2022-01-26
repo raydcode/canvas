@@ -192,7 +192,7 @@ clearStorageBtn.addEventListener('click', () => {
   setTimeout(switchToBrush, 1500);
 });
 
-// Download Image
+
 downloadBtn.addEventListener('click', () => {
   downloadBtn.href = canvas.toDataURL('image/jpeg', 1);
   downloadBtn.download = 'paint-example.jpeg';
